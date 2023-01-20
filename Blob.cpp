@@ -1,10 +1,10 @@
 #include <iostream>
-#include "File.h"
+#include "Blob.h"
 using namespace git_core;
-File::File() {
+Blob::Blob() {
 
 	std::cout << "Helo";
 }
 
 
-File::~File() {}
+Blob::~Blob() {}

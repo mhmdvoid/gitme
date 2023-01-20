@@ -1,4 +1,3 @@
-
 #include "BlobNode.h"
 
 using namespace git_core;

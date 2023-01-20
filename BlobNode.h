@@ -1,16 +1,19 @@
 #ifndef GIT_CORE_BLOBNODE_H
 #define GIT_CORE_BLOBNODE_H
-#include "File.h"
+#include "Blob.h"
 
 
 namespace git_core {
 
 class BlobNode {
 
-	File *data;  
 public:
 	BlobNode();
 	~BlobNode();
+
+private:
+	Blob *data;
+
 };
 }
-#endif 
+#endif
