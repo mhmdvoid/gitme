@@ -1,18 +1,18 @@
-#ifndef GIT_CORE_FILE_H
-#define GIT_CORE_FILE_H
+#ifndef GIT_CORE_Blob_H
+#define GIT_CORE_Blob_H
 
 
 namespace git_core {
 
 
 // This should be auto_created for every object
-class File {
+class Blob {
 
 	// Private
 	typedef unsigned char byte;
 public:
-	File();
-	~File();
+	Blob();
+	~Blob();
 
 	bool isCommited() const { return Commited; }
 private:
