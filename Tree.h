@@ -4,7 +4,7 @@
 
 namespace git_core {
 
-// This is the staging area structure
+// This is the staging area structure, sotf of Git/index.
 class Tree {
 
 public:
